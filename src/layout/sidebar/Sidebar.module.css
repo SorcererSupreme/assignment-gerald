@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  color: inherit;
+  height: 100%;
+  width: 225px;
+  position: fixed;
+  top: 0px;
+  padding: 2rem 0rem;
+}

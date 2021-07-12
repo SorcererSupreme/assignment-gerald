@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  padding: 2rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.containerActive {
+  display: flex;
+  padding: 2rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--tertiaryBackgroundColor);
+  color: var(--higlightTextColor);
+}
+
+.container:hover {
+  background-color: var(--tertiaryBackgroundColor);
+  color: var(--higlightTextColor);
+}
+
+.avatar {
+  height: 36px;
+  width: 36px;
+  border-radius: 10px;
+}
+
+.itemDetail {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.itemDetailTopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemDetailTopRow > span {
+  font-size: 0.75rem;
+  color: var(--tertiaryTextColor);
+}
+
+.subject {
+  font-size: 1rem;
+  font-weight: bold;
+  color: inherit;
+  margin-bottom: 0.75rem;
+  margin-top: 0.3rem;
+}
+
+.snippet {
+  font-size: 0.875rem;
+  color: var(--tertiaryTextColor);
+}

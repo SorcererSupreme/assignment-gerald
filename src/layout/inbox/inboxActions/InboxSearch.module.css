@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+}
+
+.icon {
+  color: var(--tertiaryTextColor);
+  position: absolute;
+  left: 0.5rem;
+  z-index: 1;
+  left: 13px;
+  top: -13px;
+}
+
+.input {
+  position: absolute;
+  left: 0px;
+  top: -1.4rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  width: 500px;
+  border-radius: 4px;
+  background-color: var(--tertiaryBackgroundColor);
+  border-color: var(--tertiaryBackgroundColor);
+  border-style: solid;
+  /* outline-offset: -2px; */
+  outline-color: var(--primaryBackgroundColor);
+}
+
+.input:focus {
+  outline-color: var(--higlightTextColor);
+}

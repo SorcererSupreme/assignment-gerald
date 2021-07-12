@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.priority {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 1rem;
+  color: var(--tertiaryTextColor);
+}

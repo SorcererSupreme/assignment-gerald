@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--higlightTextColor);
+  color: var(--primaryBackgroundColor);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--higlightTextColor);
+  opacity: 0.875;
+}
+
+.button:hover {
+  opacity: 1;
+}

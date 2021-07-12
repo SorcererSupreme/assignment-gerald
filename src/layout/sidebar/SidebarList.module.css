@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--primaryBackgroundColor); */
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem 0rem;
+  background-color: var(--secondaryBackgroundColor);
+  cursor: pointer;
+}
+
+.listItemActive {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem 0rem;
+  background-color: var(--primaryBackgroundColor);
+  color: var(--primaryTextColor);
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.dossier {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  color: var(--primaryBackgroundColor);
+}
+
+.icon {
+  color: var(--quaternaryTextColor);
+  padding-left: 1rem;
+}
+
+.iconActive {
+  color: var(--secondaryBackgroundColor);
+  padding-left: 1rem;
+}
+
+.dossier > .icon {
+  color: var(--primaryBackgroundColor);
+}
+
+.name {
+  padding-left: 1rem;
+}
