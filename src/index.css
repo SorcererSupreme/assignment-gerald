@@ -17,28 +17,24 @@ code {
   width: 100%;
 }
 
-@media (prefers-color-scheme: light) {
-  .body-light {
-    --primaryBackgroundColor: #ffffff;
-    --secondaryBackgroundColor: #0278d5;
-    --tertiaryBackgroundColor: #f4f9fe;
-    --primaryTextColor: #000000;
-    --secondaryTextColor: #2f3543;
-    --tertiaryTextColor: #999fae;
-    --quaternaryTextColor: #c9d1dc;
-    --higlightTextColor: #0278d5;
-  }
+.body-light {
+  --primaryBackgroundColor: #ffffff;
+  --secondaryBackgroundColor: #0278d5;
+  --tertiaryBackgroundColor: #f4f9fe;
+  --primaryTextColor: #000000;
+  --secondaryTextColor: #2f3543;
+  --tertiaryTextColor: #999fae;
+  --quaternaryTextColor: #c9d1dc;
+  --higlightTextColor: #0278d5;
 }
 
-@media (prefers-color-scheme: light) {
-  .body-dark {
-    --primaryBackgroundColor: #000000;
-    --secondaryBackgroundColor: #0278d5;
-    --tertiaryBackgroundColor: rgb(21, 24, 28);
-    --primaryTextColor: #e1e1e1;
-    --secondaryTextColor: whitesmoke;
-    --tertiaryTextColor: #999fae;
-    --quaternaryTextColor: #c9d1dc;
-    --higlightTextColor: #0278d5;
-  }
+.body-dark {
+  --primaryBackgroundColor: #000000;
+  --secondaryBackgroundColor: #0278d5;
+  --tertiaryBackgroundColor: rgb(21, 24, 28);
+  --primaryTextColor: #e1e1e1;
+  --secondaryTextColor: whitesmoke;
+  --tertiaryTextColor: #999fae;
+  --quaternaryTextColor: #c9d1dc;
+  --higlightTextColor: #0278d5;
 }

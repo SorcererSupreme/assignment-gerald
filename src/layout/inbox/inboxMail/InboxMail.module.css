@@ -4,3 +4,36 @@
   width: 65%;
   padding-right: 1rem;
 }
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--higlightTextColor);
+  cursor: pointer;
+  margin: 2rem 1rem;
+}
+
+.imageContainer {
+  max-width: 70%;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.subject {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primaryTextColor);
+  margin-top: 2rem;
+}
+
+.content {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  color: var(--tertiaryTextColor);
+}
