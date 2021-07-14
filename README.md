@@ -1,3 +1,7 @@
+# Build Screenshots
+![Alt text](https://i.imgur.com/WatluXL.png "Light Mode")
+![Alt text](https://i.imgur.com/KyuGl2Q.png "Dark Mode")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
